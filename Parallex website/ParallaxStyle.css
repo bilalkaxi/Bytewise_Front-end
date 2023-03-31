@@ -1,0 +1,71 @@
+html,
+body {
+    height: 100%;
+    margin: 0 ;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: grey;
+}
+.pimg1{
+background-image: url(image/pimg1.jpg);
+min-height: 100%;
+position: relative;
+background-position: center;
+background-size: cover ;
+background-repeat: no-repeat;
+}
+.pimg2{
+background-image: url(image/pimg2.jpg);
+min-height: 100%;
+position: relative;
+background-position: center;
+background-size: cover ;
+background-repeat: no-repeat;
+    }
+.pimg3{
+background-image: url(image/pimg3.jpg);
+min-height: 100%;
+position: relative;
+background-position: center;
+background-size: cover ;
+background-repeat: no-repeat;
+ }
+ .pimg4{
+background-image: url(image/pimg4.jpg);
+min-height: 100%;
+position: relative;
+background-position: center;
+background-size: cover ;
+background-repeat: no-repeat;
+     }
+.pimg1,.pimg2 , .pimg3 , .pimg5 {
+    background-attachment: fixed;
+}
+ .ptext{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: black;
+    font-size: larger;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+ }
+.textbg {
+    background-color: darkcyan;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.Section-One{
+    padding: 50px 80px;
+    background-color: darkcyan;
+    color: black;
+    background-size: cover;
+    
+}
+.Section-One > h2{
+    text-align: center;
+}
